@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+}
+div{
+   
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border:20px solid #75F4F4;
+    border-top:10px solid black;
+    border-radius: 50%;
+    animation:firstone 1s ease-in  0s infinite normal;
+}
+@keyframes firstone {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+    
+}
